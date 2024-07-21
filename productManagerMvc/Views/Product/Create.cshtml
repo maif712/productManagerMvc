@@ -1,0 +1,11 @@
+﻿
+@model Product
+
+
+
+<form method="post" asp-controller="Product" asp-action="Create">
+    <input asp-for="Name" placeholder="Exp: iphone 13" />
+    <input type="number" asp-for="Price" placeholder="Exp: 1350000" />
+    <input type="number" asp-for="Quantity" placeholder="Exp: 10" />
+    <button type="submit" class="btn btn-success">Add Product</button>
+</form>
